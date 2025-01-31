@@ -4,6 +4,8 @@ import Footer from './companents/Footer/Footer'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Tours from './pages/Tours/Tours'
+import Hotels from './pages/mexmonhonalar/Hotels'
+
 // import 'flowbite'
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         <Home/>
         <About/>
         <Tours/>
+        <Hotels/>
       <Footer/>
     </div>
   )
