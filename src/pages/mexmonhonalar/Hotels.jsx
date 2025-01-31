@@ -1,7 +1,7 @@
 import React from 'react'
-import Hostel1 from "../../assets/Hostel1.jpg"
-import Hostel2 from "../../assets/Hostel2.jpg"
-import Hostel3 from "../../assets/Hostel3.jpg"
+import Hostel1 from "../../assets/hostel1.jpg"
+import Hostel2 from "../../assets/hostel2.jpg"
+import Hostel3 from "../../assets/hostel3.jpg"
 
 
 function Hotels() {
