@@ -7,7 +7,6 @@ import Tours from './pages/Tours/Tours'
 import Hotels from './pages/mexmonhonalar/Hotels'
 import Flights from './pages/Flights/Flights'
 import Contact from './pages/Contact/Contact'
-import Cell from './pages/cell/Cell'
 
 
 
@@ -25,7 +24,6 @@ function App() {
         <Flights/>
         <Contact/>
       <Footer/>
-      <Cell/>
     </div>
   )
 }
