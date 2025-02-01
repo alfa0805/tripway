@@ -43,7 +43,7 @@ function About() {
                         Ko‘ngilli tibbiy sug‘urtalash, Sug‘urta xizmatlari (Toshkentda va O‘zbekistonda), Turfirmalari va turagentliklari O‘zbekistonda, Turistlarni sug‘urtalash, Turizm va sayyohlik xizmatlari O‘zbekistonda, Turlar Antaliyaga va dam olish Antaliyada, Turlar BAAga va dam olish BAAda, Turlar Bali oroliga va dam olish Bali orolida, Turlar Germaniyaga va dam olish Germaniyada, Turlar Indoneziyaga va dam olish Indoneziyada.
                     </p>
                 </div>
-                <div data-aos="fade-left" className="w-[50%] max-[800px]:w-[450px]  max-[470px]:hidden">
+                <div data-aos="fade-left" className="w-[50%] max-[800px]:w-[450px]">
                     <div className="about w-[100%] h-[270px]  bg-center bg-no-repeat bg-cover rounded-[10px]">    
                     </div>
                     <div className="flex items-center justify-between w-[100%] h-[180px] pt-[15px]">
