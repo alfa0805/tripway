@@ -9,7 +9,7 @@ function Hotels() {
     <>
         <div className="py-[70px] max-w-[1240px] mx-auto px-[20px]">
             <h2 className="py-[30px] font-bold text-[38px] text-center">Mehmonxonalar</h2>
-            <div className="flex items-center justify-between gap-[10px] flex-wrap">
+            <div className="flex items-center justify-center gap-[20px] flex-wrap">
                 <div className="w-[380px] h-[400px] shadow-xl rounded-[10px] hover:shadow-[0px_3px_10px_3px_#F2652260] hover:transition-all duration-500">
                     <div className="w-[100%] h-[190px] rounded-t-xl">
                         <img src={Hostel1} alt="" className="w-full h-full object-cover rounded-t-[10px]" />

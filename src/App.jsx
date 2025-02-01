@@ -5,6 +5,9 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Tours from './pages/Tours/Tours'
 import Hotels from './pages/mexmonhonalar/Hotels'
+import Flights from './pages/Flights/Flights'
+import Contact from './pages/Contact/Contact'
+import Cell from './pages/cell/Cell'
 
 // import 'flowbite'
 
@@ -16,7 +19,10 @@ function App() {
         <About/>
         <Tours/>
         <Hotels/>
+        <Flights/>
+        <Contact/>
       <Footer/>
+      <Cell/>
     </div>
   )
 }
