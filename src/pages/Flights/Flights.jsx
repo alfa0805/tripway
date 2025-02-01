@@ -42,47 +42,47 @@ function Flights()  {
         </div>
       </div>
       {/* Popular */}
-        <div class="py-[50px] max-w-[1240px] px-[20px] mx-auto">
-          <h2 class="text-2xl font-bold text-center mb-8 text-nemo-dark">Mashxur shaxarlar</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
-              <div class="relative h-48 overflow-hidden">
-                <img src={Hostel1} alt="Dubai" class="w-full h-full object-cover transition duration-300 hover:scale-110"/>
+        <div className="py-[50px] max-w-[1240px] px-[20px] mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8 text-nemo-dark">Mashxur shaxarlar</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative h-48 overflow-hidden">
+                <img src={Hostel1} alt="Dubai" className="w-full h-full object-cover transition duration-300 hover:scale-110"/>
               </div>
-              <div class="p-4">
-                <h3 class="text-lg font-semibold text-nemo-dark mb-2">Dubai</h3>
-                <p class="text-gray-600">Zamonaviy arxitektura va hashamatli savdo markazlari</p>
-                <button class="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
-              </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
-              <div class="relative h-48 overflow-hidden">
-                <img src={Hostel2} alt="Dubai" class="w-full h-full object-cover transition duration-300 hover:scale-110"/>
-              </div>
-              <div class="p-4">
-                <h3 class="text-lg font-semibold text-nemo-dark mb-2">Saudiya Arabistoni</h3>
-                <p class="text-gray-600">Umra ziyorati uchun maxsus paketlar</p>
-                <button class="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-nemo-dark mb-2">Dubai</h3>
+                <p className="text-gray-600">Zamonaviy arxitektura va hashamatli savdo markazlari</p>
+                <button className="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
-              <div class="relative h-48 overflow-hidden">
-                <img src={Hostel3} alt="Dubai" class="w-full h-full object-cover transition duration-300 hover:scale-110"/>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative h-48 overflow-hidden">
+                <img src={Hostel2} alt="Dubai" className="w-full h-full object-cover transition duration-300 hover:scale-110"/>
               </div>
-              <div class="p-4">
-                <h3 class="text-lg font-semibold text-nemo-dark mb-2">Istanbul</h3>
-                <p class="text-gray-600">Tarixiy obidalar va zamonaviy madaniyat</p>
-                <button class="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-nemo-dark mb-2">Saudiya Arabistoni</h3>
+                <p className="text-gray-600">Umra ziyorati uchun maxsus paketlar</p>
+                <button className="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
               </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
-              <div class="relative h-48 overflow-hidden">
-                <img src={Hostel1} alt="Dubai" class="w-full h-full object-cover transition duration-300 hover:scale-110"/>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative h-48 overflow-hidden">
+                <img src={Hostel3} alt="Dubai" className="w-full h-full object-cover transition duration-300 hover:scale-110"/>
               </div>
-              <div class="p-4">
-                <h3 class="text-lg font-semibold text-nemo-dark mb-2">Antalya</h3>
-                <p class="text-gray-600">Dam olish va sohil bo'yi kurortlari</p>
-                <button class="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-nemo-dark mb-2">Istanbul</h3>
+                <p className="text-gray-600">Tarixiy obidalar va zamonaviy madaniyat</p>
+                <button className="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative h-48 overflow-hidden">
+                <img src={Hostel1} alt="Dubai" className="w-full h-full object-cover transition duration-300 hover:scale-110"/>
+              </div>
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-nemo-dark mb-2">Antalya</h3>
+                <p className="text-gray-600">Dam olish va sohil bo'yi kurortlari</p>
+                <button className="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">Batavfsil malumot</button>
               </div>
             </div>
           </div>
