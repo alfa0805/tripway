@@ -1,18 +1,6 @@
-import React from 'react'
-
-import 'aos/dist/aos.css'; 
-import AOS from 'aos'
-import { useEffect } from 'react';
 
 function About() {
-
-    useEffect(() => {
-            AOS.init({
-              duration: 1000,
-              once: false, 
-            });
-        }, []);
-
+    
   return (
     <div>
         <div className="max-w-[1240px] px-[20px] py-[40px] mx-auto flex justify-start items-center flex-col">
